@@ -8,17 +8,6 @@ img {
   color: #434455;
 }
 
-.container {
-  width: 1158px;
-  margin: 0;
-  padding: 0 15px;
-}
-.container-header {
-  display: flex;
-}
-.navigation {
-  display: flex;
-}
 .header-box {
   flex-shrink: 0;
   background: var(--WHITE, #fff);
@@ -34,6 +23,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-bottom: 24px;
+  margin-right: 76px;
   text-decoration: none;
 }
 
@@ -89,6 +79,26 @@ img {
 .header-head-link:hover,
 .header-head-link:focus {
   color: #404bbf;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-header {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-int-items {
+  display: flex;
+  gap: 40px;
+}
+.list-of-links {
+  display: flex;
+  gap: 40px;
 }
 /* SECTION HERO */
 
