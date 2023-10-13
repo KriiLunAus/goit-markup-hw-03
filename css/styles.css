@@ -161,10 +161,18 @@ img {
 
 .features {
   display: flex;
+  width: 1440px;
+  margin: auto;
 }
 .hidden {
   line-height: 1.11;
   display: none;
+}
+
+.section-two {
+  gap: 24px;
+  margin: 0 auto;
+  margin: 120px;
 }
 
 .section-two-list {
