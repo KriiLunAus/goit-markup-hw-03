@@ -25,6 +25,7 @@ img {
   margin-bottom: 24px;
   margin-right: 76px;
   text-decoration: none;
+  padding-top: 24px;
 }
 
 .header-logo-part {
@@ -47,14 +48,19 @@ img {
   font-style: normal;
 }
 .contacts-list {
-  text-align: right;
+  display: flex;
   text-decoration: none;
+  padding: 0;
+  margin-left: 260px;
+  gap: 40px;
 }
 
 .contacts-list-element {
   text-decoration: none;
   margin-right: 40px;
   list-style-type: none;
+  margin: 32px 0;
+  padding: 0;
 }
 
 .contacts-link {
@@ -98,28 +104,43 @@ img {
 }
 .list-of-links {
   display: flex;
+  list-style-type: none;
+  padding-left: 0;
   gap: 40px;
 }
 /* SECTION HERO */
 
-.content-head {
+.hero-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.hero {
   background-color: #2e2f42;
   font-weight: 500;
 }
 
-.content-header {
+.hero-header {
   text-align: center;
   color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  margin-right: 472px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto;
+  padding-top: 188px;
+  width: 496px;
 }
 
-.button {
+.order-service-container {
+  margin: auto;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 188px;
+}
+.order-service {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -127,23 +148,29 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: rgb(255, 255, 255);
-  margin-right: 636px;
-  margin-bottom: 188px;
+  margin: 0;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
-.button:hover {
-  background-color: #404bbf;
-}
-.button:focus {
+.order-service:focus,
+.order-service:hover {
   background-color: #404bbf;
 }
 
+/* SECTION FEATURES */
+
+.features {
+  display: flex;
+}
 .hidden {
   line-height: 1.11;
+  display: none;
 }
 
 .section-two-list {
   list-style: none;
-  margin-right: 24px;
+  width: 264px;
+  display: inline-block;
 }
 
 .section-two-list-header {
@@ -158,6 +185,7 @@ img {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
+
   letter-spacing: 0.32px;
 }
 
