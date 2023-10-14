@@ -260,11 +260,18 @@ img {
 
 /* SECTION PORTFOLIO */
 
-.section-four {
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.section-portfolio {
   text-align: center;
 }
 
-.section-four-header {
+.section-portfolio-header {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -273,39 +280,51 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 120px;
 }
 
-.section-four-list {
+.section-portfolio-list {
   text-align: center;
   margin-bottom: 0px;
+  list-style-type: none;
+  margin: 0 auto;
 }
 
-.section-four-list-element {
-  text-align: center;
+.section-portfolio-list-element {
+  text-align: left;
   text-decoration: none;
   border: 1px solid #e7e9fc;
   background: #fff;
+  display: inline-block;
   margin-right: 24px;
   margin-bottom: 48px;
 }
-.section-four-list-element-head {
-  text-align: center;
+.section-portfolio-list-element-head {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-bottom: 0;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
-.section-four-paragraph {
+.section-portfolio-paragraph {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 /* FOOTER */
+
+.footer-container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 
 .footer-section {
   background-color: #2e2f42;
@@ -321,6 +340,8 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
+  padding-top: 102px;
+  margin-bottom: 17px;
 }
 
 .footer-part {
@@ -340,4 +361,7 @@ img {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+  width: 264px;
+  margin: 0;
+  margin-bottom: 100px;
 }
