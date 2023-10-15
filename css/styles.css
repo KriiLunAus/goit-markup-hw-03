@@ -327,11 +327,11 @@ img {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  margin-top: 120px;
 }
 
 .footer-section {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-head {
@@ -344,8 +344,8 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
-  padding-top: 102px;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
+  display: inline-block;
 }
 
 .footer-part {
@@ -356,7 +356,7 @@ img {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   line-height: 1.17;
 }
 
@@ -367,5 +367,4 @@ img {
   letter-spacing: 0.32px;
   width: 264px;
   margin: 0;
-  margin-bottom: 100px;
 }
