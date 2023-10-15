@@ -222,6 +222,8 @@ img {
 }
 
 .our-team-list {
+  display: flex;
+  gap: 24px;
   margin: 0 auto;
   padding: 0;
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -248,9 +250,9 @@ img {
 .our-team-list-element {
   background-color: rgb(255, 255, 255);
   display: inline-block;
-  margin-right: 24px;
   padding-left: 0;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-li-head {
@@ -288,6 +290,7 @@ img {
 
 .section-portfolio {
   text-align: center;
+  padding: 120px 0;
 }
 
 .section-portfolio-header {
@@ -299,7 +302,6 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 
 .section-portfolio-list {
@@ -307,6 +309,10 @@ img {
   margin-bottom: 0px;
   list-style-type: none;
   margin: 0 auto;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .section-portfolio-list-element {
@@ -315,7 +321,6 @@ img {
   border: 1px solid #e7e9fc;
   background: #fff;
   display: inline-block;
-  margin-right: 24px;
   margin-bottom: 48px;
 }
 .section-portfolio-list-element-head {
