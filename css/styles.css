@@ -1,5 +1,6 @@
 img {
   display: block;
+  max-width: 100%;
 }
 /* HEADER STYLES */
 .body {
@@ -166,9 +167,18 @@ img {
   margin: 0 auto;
   padding-left: 24px;
 }
-.hidden {
-  line-height: 1.11;
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-two {
@@ -182,9 +192,6 @@ img {
   width: calc((100% - 72px) / 4);
   display: inline-block;
   margin-right: 24px;
-}
-.last {
-  margin-right: 0;
 }
 
 .section-two-list-header {
@@ -200,7 +207,6 @@ img {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
-
   letter-spacing: 0.32px;
 }
 
@@ -209,7 +215,6 @@ img {
 .our-team-container {
   width: 1440px;
   background-color: #f4f4fd;
-  display: flex;
   padding: 0;
   margin: 0 auto;
   flex-direction: column;
@@ -218,6 +223,8 @@ img {
 .our-team-list {
   margin: 0 auto;
   padding: 0;
+  display: flex;
+  gap: 24px;
 }
 
 .our-team {
@@ -240,18 +247,18 @@ img {
 .our-team-list-element {
   background-color: rgb(255, 255, 255);
   display: inline-block;
-  margin-right: 24px;
   padding-left: 0;
-  text-align: center;
+  margin: 0 auto;
+  /* width: calc((100% - 3 * 24px) / 4); */
 }
 
 .our-team-li-head {
+  text-align: center;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .our-team-li-paragraph {
@@ -260,7 +267,11 @@ img {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  margin-bottom: 32px;
+  margin: 0;
+}
+
+.member-container {
+  padding: 32px 0;
 }
 
 /* SECTION PORTFOLIO */
