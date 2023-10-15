@@ -320,8 +320,10 @@ img {
   text-decoration: none;
   border: 1px solid #e7e9fc;
   background: #fff;
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .section-portfolio-list-element-head {
   color: #2e2f42;
@@ -329,19 +331,25 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-top: 32px;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 .section-portfolio-paragraph {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-bottom: 0;
   margin-top: 0;
-  margin-bottom: 32px;
 }
 .deleted-bottom-margin {
   margin-bottom: 0;
+}
+
+.portfolio-list-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* FOOTER */
