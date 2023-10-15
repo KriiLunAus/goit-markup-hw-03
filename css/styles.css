@@ -1,6 +1,5 @@
 img {
   display: block;
-  max-width: 100%;
 }
 /* HEADER STYLES */
 .body {
@@ -207,6 +206,7 @@ img {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
+
   letter-spacing: 0.32px;
 }
 
@@ -215,6 +215,7 @@ img {
 .our-team-container {
   width: 1440px;
   background-color: #f4f4fd;
+  display: flex;
   padding: 0;
   margin: 0 auto;
   flex-direction: column;
@@ -223,8 +224,7 @@ img {
 .our-team-list {
   margin: 0 auto;
   padding: 0;
-  display: flex;
-  gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team {
@@ -242,23 +242,26 @@ img {
   line-height: 1.11;
   text-align: center;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .our-team-list-element {
   background-color: rgb(255, 255, 255);
   display: inline-block;
+  margin-right: 24px;
   padding-left: 0;
-  margin: 0 auto;
-  /* width: calc((100% - 3 * 24px) / 4); */
+  text-align: center;
 }
 
 .our-team-li-head {
-  text-align: center;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
+  text-align: center;
+  margin: 0;
   margin-bottom: 8px;
 }
 .our-team-li-paragraph {
