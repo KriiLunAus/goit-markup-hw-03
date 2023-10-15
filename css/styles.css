@@ -313,6 +313,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .section-portfolio-list-element {
@@ -321,7 +322,6 @@ img {
   background: #fff;
   display: inline-flex;
   flex-direction: column;
-  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 .section-portfolio-list-element-head {
