@@ -318,7 +318,6 @@ img {
 .section-portfolio-list-element {
   text-align: left;
   text-decoration: none;
-  border: 1px solid #e7e9fc;
   background: #fff;
   display: inline-flex;
   flex-direction: column;
@@ -341,9 +340,6 @@ img {
   letter-spacing: 0.32px;
   margin-bottom: 0;
   margin-top: 0;
-}
-.deleted-bottom-margin {
-  margin-bottom: 0;
 }
 
 .portfolio-list-container {
