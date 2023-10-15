@@ -118,6 +118,7 @@ img {
 .hero {
   background-color: #2e2f42;
   font-weight: 500;
+  padding: 188px 0;
 }
 
 .hero-header {
@@ -130,17 +131,11 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  padding-top: 188px;
-  width: 496px;
+  max-width: 496px;
 }
 
-.order-service-container {
-  margin: auto;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 188px;
-}
 .order-service {
+  display: block;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -151,6 +146,12 @@ img {
   margin: 0;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 .order-service:focus,
 .order-service:hover {
@@ -159,6 +160,9 @@ img {
 
 /* SECTION FEATURES */
 
+.content-features {
+  padding: 120px 0;
+}
 .features {
   display: flex;
   width: 1440px;
@@ -172,15 +176,18 @@ img {
 
 .section-two {
   margin: 0 auto;
-  margin: 120px;
   padding: 0;
+  display: flex;
 }
 
 .section-two-list {
   list-style: none;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   display: inline-block;
   margin-right: 24px;
+}
+.last {
+  margin-right: 0;
 }
 
 .section-two-list-header {
@@ -189,6 +196,7 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .section-two-list-paragraph {
