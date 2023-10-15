@@ -180,17 +180,17 @@ img {
   overflow: hidden;
 }
 
-.section-two {
+.section-two-list {
   margin: 0 auto;
   padding: 0;
   display: flex;
+  gap: 24px;
 }
 
-.section-two-list {
+.section-two-list-element {
   list-style: none;
   width: calc((100% - 72px) / 4);
   display: inline-block;
-  margin-right: 24px;
 }
 
 .section-two-list-header {
