@@ -36,7 +36,8 @@ img {
 .header-head {
   line-height: 1.17;
   text-align: center;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts {
