@@ -36,7 +36,7 @@ img {
 .header-head {
   line-height: 1.17;
   text-align: center;
-  padding: 24px 0ж;
+  padding: 24px 0;
 }
 
 .contacts {
@@ -363,7 +363,7 @@ img {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 21em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -378,7 +378,7 @@ img {
 .footer-paragraph {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24em;
   letter-spacing: 0.32px;
   width: 264px;
   margin: 0;
