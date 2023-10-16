@@ -34,10 +34,6 @@ img {
 }
 
 .header-head {
-  line-height: 1.17;
-  text-align: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts {
@@ -47,7 +43,6 @@ img {
 .contacts-list {
   display: flex;
   text-decoration: none;
-  padding: 0;
   margin-left: 260px;
   gap: 40px;
 }
@@ -71,9 +66,11 @@ img {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.17;
   letter-spacing: 0.32px;
   text-decoration: none;
+  text-align: center;
+  padding: 24px 0;
 }
 
 .contacts-link:hover,
@@ -364,7 +361,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
@@ -378,8 +375,8 @@ img {
 .footer-paragraph {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   width: 264px;
   margin: 0;
 }
