@@ -41,6 +41,7 @@ img {
 
 .contacts {
   font-style: normal;
+  padding: 24px 0;
 }
 .contacts-list {
   display: flex;
@@ -348,8 +349,6 @@ img {
 .footer-container {
   width: 1440px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-section {
@@ -363,7 +362,7 @@ img {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21em;
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -378,7 +377,7 @@ img {
 .footer-paragraph {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 24em;
+  line-height: 24px;
   letter-spacing: 0.32px;
   width: 264px;
   margin: 0;
