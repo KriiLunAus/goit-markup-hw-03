@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 img {
   display: block;
 }
@@ -51,7 +62,6 @@ img {
   text-decoration: none;
   margin-right: 40px;
   list-style-type: none;
-  margin: 0;
 }
 
 .contacts-link {
@@ -87,7 +97,6 @@ img {
   list-style-type: none;
   padding-left: 0;
   padding: 24px 0;
-  margin: 0px;
 }
 
 .header-container {
@@ -124,7 +133,6 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: rgb(255, 255, 255);
-  margin: 0;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -238,7 +246,6 @@ img {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
   text-align: center;
-  margin: 0;
   margin-bottom: 8px;
 }
 .our-team-li-paragraph {
@@ -247,7 +254,6 @@ img {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  margin: 0;
 }
 
 .member-container {
@@ -354,5 +360,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  margin: 0;
 }
